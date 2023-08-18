@@ -1,0 +1,56 @@
+body {
+    background-image: url('pic\ one.jpg');
+    background-size: cover;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 25%;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+#guess {
+    padding: 10px;
+    width: 50%;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+#btn {
+    background-color: red;
+    font-size: 15px;
+    color: #ffff;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: none;
+}
+
+@media all and (max-width:800px){
+    #container {
+        width: 180px;
+        text-align: center;
+    }
+
+    #guess {
+        width: 160px;
+    }
+}
