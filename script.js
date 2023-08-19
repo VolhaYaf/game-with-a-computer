@@ -48,4 +48,3 @@ function play(){
 }
 
 
-console.log(answer);
